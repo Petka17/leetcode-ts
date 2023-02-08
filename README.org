@@ -1,0 +1,24 @@
+* Dev Dependecies
+** Eslint + Prettier + Typescript
+*** Typescript
+    tsconfig.json
+*** Eslint
+    .eslintrc
+    Sort import
+    Format JSON? Format JS
+    What are default extentions that Eslint is working with
+*** Prettier
+    .prettierrc.yaml
+** Scripty + Npm Run All
+** Husky + Lint Staged
+   .huskyrc
+   .lintstagedrc
+   Auto format and stage commited files
+   Validate the code before the commit
+** Jest
+   jest.config.js
+   Make it work with typescript
+   Coverage
+** Cypress
+   Make sure types for jest and cypress are not conflicting
+* Run scripts in org-babel
