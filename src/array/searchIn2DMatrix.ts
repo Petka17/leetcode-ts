@@ -14,8 +14,12 @@ export function rowBinarySearch(
   start: number,
   end: number,
 ): number {
-  if (start === 0 && end === 0 && matrix[0][0] > target) {
-    return -1
+  if (start === 0 && end === 0) {
+    const val = matrix[0][0]
+
+    if (!val || val > target) {
+      return -1
+    }
   }
 
   if (start === matrix.length - 1) {

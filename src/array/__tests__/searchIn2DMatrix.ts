@@ -1,7 +1,7 @@
 import { searchMatrix } from "../searchIn2DMatrix"
 
 describe("searchIn@DMatrix function", () => {
-  test.skip("shouldn't find element in the empty array", () => {
+  test("shouldn't find element in the empty array", () => {
     expect(searchMatrix([[]], 1)).toBe(false)
   })
 
